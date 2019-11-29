@@ -32,6 +32,20 @@
   </form>
 </div>
 
+<p>link</p>
+<a href="/" id="js-show-popup" class="header__navigation--wp"
+  onclick="gtag('event', 'アクション', {'event_category': 'menuWPclick','event_label': 'ヘッダーWP click'});">WP</a>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153561056-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-153561056-1');
+</script>
+
 </main>
 
 </body>
